@@ -57,7 +57,9 @@ evaluates performance using various metrics, and provides insights into how well
 terms of predicting the mortality risk categories. Feature importance is done to understand which features are most influential in predicting the mortality risk categories
 
 #### Time series:
-
+show the mortality trends and forecast future mortality rates.There is observed decrease in the mortality rates accross different countries over the observed period(1990-2020).The countries with the highest mortality rates were as shown below:
+![Alt Text](image3.png)
+From Dickey-fuller test to analyze the stationarity of mortality rate for different countries,it showed that the data was not stationary hence proceeded to do differencing  to achieve stationarity.
 
 ### Recommendation and conclusion
 
