@@ -137,7 +137,8 @@ The model evaluation is done by using diagnostics plots (ACF and PCF) to provide
 
 
 
-***Recommendation***
+***Recommendations***
+
 1.Governmental Commitment and Leadership:prioritize children's health and well-being at the forefront of their agendas. 
 
 2.Community-Based Health Initiatives:Implement community-based health initiatives with a focus on mother and child health components. 
