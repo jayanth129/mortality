@@ -1,6 +1,6 @@
-import streamlit as st
-import pandas as pd
-import joblib
+streamlit as st
+pandas as pd
+joblib
 
 # Load the trained decision tree model
 model = joblib.load('decision_tree_model.pkl')
