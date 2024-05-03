@@ -13,10 +13,12 @@ The under-5 mortality rate has decreased significantly over the last 20 years, b
 
 **Objectives:**
 
-##Main##
+Main objective
+
 To contribute to the reduction of child mortality rates by identifying high-risk populations, classifying mortality risk levels, and analyzing temporal trends.
 
-##Specific##
+Specific objective
+
 1.To identify populations at high risk of child mortality based on demographic and health-related factors.
 
 2.To classify mortality risk levels for children based on cause-specific data.
