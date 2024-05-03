@@ -1,4 +1,5 @@
 # Predicting under_5 mortality
+![AltText](image.png)
 
 **Business Understanding**:
 
