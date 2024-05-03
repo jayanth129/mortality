@@ -13,17 +13,20 @@ The under-5 mortality rate has decreased significantly over the last 20 years, b
 
 **Objectives:**
 
-1.Determine High-Risk Groups: Examine data to identify contextual and demographic elements linked to an increased risk of under-5 mortality,
-paying particular attention to cause of death.
+##Main##
+To contribute to the reduction of child mortality rates by identifying high-risk populations, classifying mortality risk levels, and analyzing temporal trends.
 
-2.Identify primary causes of death, interpret and predict future trends in under-5 mortality rates.
+##Specific##
+1.To identify populations at high risk of child mortality based on demographic and health-related factors.
 
-3.Enlighten Practice and Policy: Provide analysis and suggestions to guide clinical practice and evidence-based policy-making with the goal
-of lowering the under-5 death rate and advancing universal access to healthcare services.
+2.To classify mortality risk levels for children based on cause-specific data.
+
+3.To analyze temporal trends in child mortality rates and forecast future mortality rates.
+
 
 **Data understanding**
 
-The project uses the following data set compiled from Kaggle. Each dataset records the country name as Entity and code as country code with
+The project uses the following data set compiled from Kaggle and web-scarpped data. Each dataset records the country name as Entity and code as country code with
 various columns as highlighted below between 1990 to 2019.
 
 1.causes_death.csv: Records 29 causes of death for each country for each year under review.
@@ -72,8 +75,9 @@ evaluates performance using various metrics, and provides insights into how well
 
 Models used are: Logistics regression model, Support Vector model,Random Forest classifier and Naive Bayes.
 
-Model evaluation: classification model evaluates its performance using cross-validation, and provides an estimate of its accuracy on unseen
-test data.
+Model evaluation: classification model evaluates its performance using cross-validation, and provides an estimate of its accuracy on unseen test data.
+
+The Naive Bayes model was chosen as the best model as it had the most optimisitc performance with a training and test accuracy that are neither perfect not too low.
 
 The most important features in predicting the risk of under 5 mortality include from the models used are:
 
