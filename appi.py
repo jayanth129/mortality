@@ -1,5 +1,5 @@
-streamlit as st
-pandas as pd
+streamlit 
+pandas 
 joblib
 
 # Load the trained decision tree model
@@ -21,18 +21,18 @@ age_brackets = {
 
 # Define the Streamlit app
 def main():
-    st.title('Mortality Prediction App')
+    streamlit.title('Mortality Prediction App')
 
     # Create input fields for user to input data
-    year = st.sidebar.slider('Year', min_value=1990, max_value=2024, step=1)
-    population = st.sidebar.slider('Population (historical estimates)', min_value=min_population, max_value=max_population, step=1, value=min_population)
-    gdp = st.sidebar.slider('GDP', min_value=min_gdp, max_value=max_gdp, step=1, value=min_gdp)
+    year = streamlit.sidebar.slider('Year', min_value=1990, max_value=2024, step=1)
+    population = streamlit.sidebar.slider('Population (historical estimates)', min_value=min_population, max_value=max_population, step=1, value=min_population)
+    gdp = streamlit.sidebar.slider('GDP', min_value=min_gdp, max_value=max_gdp, step=1, value=min_gdp)
 
     # Create radio buttons for the most common age bracket
-    selected_age_bracket = st.sidebar.radio('Most deaths fall within what age bracket:', list(age_brackets.keys()))
+    selected_age_bracket = streamlit.sidebar.radio('Most deaths fall within what age bracket:', list(age_brackets.keys()))
 
     # Create radio buttons for selecting the leading cause of death
-    selected_cause = st.sidebar.radio('What was the leading cause of death:', 
+    selected_cause = streamlit.sidebar.radio('What was the leading cause of death:', 
                                       ['Nutritional deficiencies', 'Infectious Diseases', 'Chronic Diseases', 
                                        'Neonatal Conditions', 'Injuries and Trauma', 'Other Conditions'])
 
@@ -42,7 +42,7 @@ def main():
     selected_cause_code = binary_mapping[selected_cause]
 
     # Create a DataFrame with user inputs
-    user_input = pd.DataFrame({
+    user_input = pandas.DataFrame({
         'Year': [year],
         'Nutritional deficiencies': [1 if selected_cause_code == 0 else 0],
         'Population (historical estimates)': [population],
