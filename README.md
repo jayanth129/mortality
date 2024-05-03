@@ -28,7 +28,7 @@ Specific objective
 
 **Data understanding**
 
-The project uses the following data set compiled from Kaggle and web-scarpped data. Each dataset records the country name as Entity and code as country code with
+The project uses the following data set compiled from Kaggle,UNICEF,World Bank and World Health Organization. Each dataset records the country name as Entity and code as country code with
 various columns as highlighted below between 1990 to 2019.
 
 1.causes_death.csv: Records 29 causes of death for each country for each year under review.
