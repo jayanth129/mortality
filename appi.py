@@ -2,7 +2,8 @@ import streamlit
 import pandas 
 
 # Load the trained decision tree model
-model = joblib.load('decision_tree_model.pkl')
+model = pickle.load(open(document,'decision_tree_model.pkl'))
+
 
 # Define the maximum and minimum values for GDP and Population
 max_population = int(329064917.0)
