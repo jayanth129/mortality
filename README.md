@@ -134,6 +134,23 @@ The model evaluation is done by using diagnostics plots (ACF and PCF) to provide
 
 ***Findings***
 
+1.Regional Distribution:
+Highest under-5 mortality rates are concentrated in Sub-Saharan Africa and Southeast Asia, while Australia, North America, and Europe have the lowest rates.
+
+2.Country Specifics:
+Top 5 countries with the highest rates are from Sub-Saharan Africa (West and Central Africa), while the lowest rates are in Europe (Nordic and Baltic countries).
+
+3.Leading Causes:
+Lower respiratory infections, diarrheal diseases, preterm births, neonatal encephalopathy, trauma, and congenital birth defects are the main causes.
+
+4.Gender Disparity:
+Male children under 5 are at a higher risk than females.
+
+5.Trend Analysis
+ Mortality rates have generally reduced since 1990, except for early neonatal mortality which remains high as of 2019.
+ 
+6.Critical Year
+ 1994 saw the highest under-5 mortality, with Rwanda recording the highest rate.
 
 
 
