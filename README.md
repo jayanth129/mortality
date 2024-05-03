@@ -111,9 +111,15 @@ From Dickey-fuller test to analyze the stationarity of mortality rate for differ
 
 The model evaluation is done by using diagnostics plots (ACF and PCF) to provide insights on the seasonal orders p,d,q and criteria like AIC. Performed a stepwise search to find the best ARIMA models for multiple datasets. Each model is evaluated based on its AIC value, with lower AIC values indicating a better fit.
 
-**Recommendation and conclusion**
+**Findings and Recommendation**
 
 **Next steps**
+
+Collect more information about the different factors that affect the death rate of children under five years old. These factors include parent demographics, healthcare spending at the national and local levels, income level, health-seeking behaviors, medical insurance statistics, and improving the classification model's predictive power.
+
+Utilize World Health Organization thresholds to assign risk levels to various populations
+
+
 
 **Deployment**
 
