@@ -119,14 +119,12 @@ The model evaluation is done by using diagnostics plots (ACF and PCF) to provide
 
 **Usage Guide**
 
-Follow these steps to set up and use the:
 
-> **Clone the Repository**: Start by cloning this repository to your local machine.
->
->Bash Copy code git clone https://github.com/sammaash/mortality.
->
-> **Download the Dataset**: Download the dataset from
-> <https://github.com/sammaash/mortality> and place it in the data
-> directory of the repository.
->
+ **Clone the Repository**: Start by cloning this repository to your local machine.
+
+Bash Copy code git clone https://github.com/sammaash/mortality.
+
+**Download the Dataset**: Download the dataset from
+ <https://github.com/sammaash/mortality> and place it in the data directory of the repository.
+
 > **Run the notebook codes and explore the recommendations References**
