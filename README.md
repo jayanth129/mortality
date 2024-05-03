@@ -13,11 +13,11 @@ The under-5 mortality rate has decreased significantly over the last 20 years, b
 
 **Objectives:**
 
-Main objective
+***Main objective***
 
 To contribute to the reduction of child mortality rates by identifying high-risk populations, classifying mortality risk levels, and analyzing temporal trends.
 
-Specific objective
+***Specific objective***
 
 1.To identify populations at high risk of child mortality based on demographic and health-related factors.
 
@@ -79,6 +79,25 @@ Models used are: Logistics regression model, Support Vector model,Random Forest 
 
 Model evaluation: classification model evaluates its performance using cross-validation, and provides an estimate of its accuracy on unseen test data.
 
+Model results for training and test accuracy respectively.
+
+Baseline Logistic Regression model - 0.995, 0.997
+
+Tuned Logistic Regression model - 0.997, 0.996
+
+Cross validation - 0.997
+
+Support Vector Model - 0.996, 0.995
+
+Tuned Support Vector Model - 0.998, 0.993
+
+Naive Bayes - 0.943, 0.915
+
+Random Forest Classifier - 1.0, 0.997
+
+Tuned Random Forest Classifier - 1.0, 0.996
+
+
 The Naive Bayes model was chosen as the best model as it had the most optimisitc performance with a training and test accuracy that are neither perfect not too low.
 
 The most important features in predicting the risk of under 5 mortality include from the models used are:
@@ -111,7 +130,25 @@ From Dickey-fuller test to analyze the stationarity of mortality rate for differ
 
 The model evaluation is done by using diagnostics plots (ACF and PCF) to provide insights on the seasonal orders p,d,q and criteria like AIC. Performed a stepwise search to find the best ARIMA models for multiple datasets. Each model is evaluated based on its AIC value, with lower AIC values indicating a better fit.
 
-**Findings and Recommendation**
+**Findings and Recommendations**
+
+***Findings***
+
+
+
+
+***Recommendation***
+1.Governmental Commitment and Leadership:prioritize children's health and well-being at the forefront of their agendas. 
+
+2.Community-Based Health Initiatives:Implement community-based health initiatives with a focus on mother and child health components. 
+
+3.Health Insurance Coverage:Establish or improve health insurance programs to ensure comprehensive health coverage for all citizens, especially vulnerable populations such as children and mothers.
+
+4.Investments in Healthcare Infrastructure:Allocate resources towards building and remodeling healthcare infrastructure, including hospitals, clinics, and primary healthcare centers. 
+
+5.Emphasis on Preventative Healthcare: Prioritize early intervention and preventive measures to reduce the burden of preventable diseases and improve child health outcomes.
+
+Partnerships and Collaborations:Foster partnerships with international organizations, non-governmental organizations (NGOs), and other stakeholders to leverage expertise, resources, and best practices. 
 
 **Next steps**
 
@@ -123,6 +160,8 @@ Utilize World Health Organization thresholds to assign risk levels to various po
 
 **Deployment**
 
+Deployed a model to predict mortality rate risk.
+
 **Usage Guide**
 
 
@@ -133,4 +172,4 @@ Bash Copy code git clone https://github.com/sammaash/mortality.
 **Download the Dataset**: Download the dataset from
  <https://github.com/sammaash/mortality> and place it in the data directory of the repository.
 
-> **Run the notebook codes and explore the recommendations References**
+**Run the notebook codes and explore the recommendations References**
