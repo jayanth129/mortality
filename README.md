@@ -180,6 +180,8 @@ Utilize World Health Organization thresholds to assign risk levels to various po
 
 Deployed a model to predict mortality rate risk.
 
+Link: https://mortality-ratess.streamlit.app
+
 **Usage Guide**
 
 
